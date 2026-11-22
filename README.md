@@ -18,11 +18,12 @@ This repo holds Attunio's assessment package (questions, scoring rules, archetyp
 | `07-Report-and-Worked-Examples.md` | Report template and worked examples |
 | `08-Readable-Question-Bank.md` | Human-readable rendering of every question |
 | `09-Validation-Results.json` | Structural checks (not psychometric validation) |
+| `10-Bot-Setup.md` | Owner decisions: card display, brief distribution, routine ask, closing message |
 | `manifest.json` | Byte counts and SHA-256 checksums used by onboarding |
 
 ## Onboarding (run by the bot)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.5/onboard.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.6/onboard.sh | bash
 ```
 The script downloads every file in the manifest, verifies sizes and checksums and question counts, then installs to `/home/box/agent-data/attunio/package` (read-only), and creates a private `profile/` folder (owner-only) and a `briefs/` folder for the team bot brief.
 
@@ -31,6 +32,7 @@ Attunio is an original coaching and reflection tool. Its questions, bands, and a
 
 ## Changelog
 
+- v1.0.6 (Nov 22, 2026): added 10-Bot-Setup.md (card display, brief distribution, routine ask and closing message).
 - v1.0.5 (Nov 22, 2026): COM-F2 reworded in plain language (start a message or conversation).
 - v1.0.4 (Nov 22, 2026): answer text no longer starts with a letter, since the card shows its own.
 - v1.0.3 (Nov 22, 2026): answers are labeled A to E to match the card letters, with middle choices "Mostly A, with some E", "An equal blend of A and E" and "Mostly E, with some A". Scoring is unchanged (A=1 to E=5).
