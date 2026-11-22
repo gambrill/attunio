@@ -36,7 +36,7 @@ An immediate clarification during the baseline uses an adaptive slot and counts 
 For a core item, show the actual text in option_1 and option_5, and the middle choices:
 1. [First endpoint]
 2. Mostly 1, with some 5.
-3. A genuine blend within the same situation.
+3. An equal blend of both options.
 4. Mostly 5, with some 1.
 5. [Second endpoint]
 Also: Depends on the situation / Neither option fits / Skip.

@@ -10,7 +10,7 @@
 #   ATTUNIO_HOME=/some/dir bash onboard.sh     # custom install location
 set -euo pipefail
 
-VERSION="${ATTUNIO_VERSION:-v1.0.0}"
+VERSION="${ATTUNIO_VERSION:-v1.0.1}"
 REPO_RAW="${ATTUNIO_REPO_RAW:-https://raw.githubusercontent.com/gambrill/attunio/${VERSION}/package}"
 HOME_DIR="${ATTUNIO_HOME:-/home/box/agent-data/attunio}"
 LOCAL_SRC=""
@@ -50,7 +50,8 @@ mkdir -p "$HOME_DIR"
 rm -rf "$HOME_DIR/package.new" && mkdir "$HOME_DIR/package.new"
 for f in $FILES; do cp "$STAGE/$f" "$HOME_DIR/package.new/$f"; done
 cp "$STAGE/manifest.json" "$HOME_DIR/package.new/manifest.json"
-rm -rf "$HOME_DIR/package" && mv "$HOME_DIR/package.new" "$HOME_DIR/package"
+if [ -d "$HOME_DIR/package" ]; then chmod -R u+w "$HOME_DIR/package"; rm -rf "$HOME_DIR/package"; fi
+mv "$HOME_DIR/package.new" "$HOME_DIR/package"
 chmod -R a-w "$HOME_DIR/package"
 
 # Private profile store (owner only) and the shared bot-brief location.

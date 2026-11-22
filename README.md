@@ -22,9 +22,14 @@ This repo holds Attunio's assessment package (questions, scoring rules, archetyp
 
 ## Onboarding (run by the bot)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.0/onboard.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.1/onboard.sh | bash
 ```
 The script downloads every file in the manifest, verifies sizes and checksums and question counts, then installs to `/home/box/agent-data/attunio/package` (read-only), and creates a private `profile/` folder (owner-only) and a `briefs/` folder for the team bot brief.
 
 ## Not a clinical tool
 Attunio is an original coaching and reflection tool. Its questions, bands, and archetypes have not been psychometrically validated. It is not a diagnosis and must not be used for hiring, promotion, or other consequential decisions about anyone. No proprietary assessment content or branded types are used.
+
+## Changelog
+
+- v1.0.1 (Nov 22, 2026): the middle answer option now reads "An equal blend of both options".
+- v1.0.0 (Nov 22, 2026): first release.
