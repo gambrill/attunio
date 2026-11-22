@@ -1,0 +1,236 @@
+{
+  "package_version": "1.0.0",
+  "validation_date": "2026-11-22",
+  "scope": "Structural and deterministic reference checks only; no live Grok integration or psychometric validation performed.",
+  "check_count": 57,
+  "checks": [
+    {
+      "check": "144 unique question IDs",
+      "result": "passed"
+    },
+    {
+      "check": "96 core, 24 follow-up, 24 context",
+      "result": "passed"
+    },
+    {
+      "check": "All prompt texts unique",
+      "result": "passed"
+    },
+    {
+      "check": "PRO: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "PRO: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "PRO: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "ATT: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "ATT: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "ATT: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "PLN: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "PLN: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "PLN: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "ACT: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "ACT: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "ACT: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "COL: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "COL: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "COL: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "COM: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "COM: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "COM: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "CHG: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "CHG: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "CHG: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "EXE: 12 core, 3 follow-up",
+      "result": "passed"
+    },
+    {
+      "check": "EXE: six direct and six reversed core items",
+      "result": "passed"
+    },
+    {
+      "check": "EXE: default uses two contexts and both pools",
+      "result": "passed"
+    },
+    {
+      "check": "MOT: six bank items, one default",
+      "result": "passed"
+    },
+    {
+      "check": "PRS: six bank items, one default",
+      "result": "passed"
+    },
+    {
+      "check": "ENV: six bank items, one default",
+      "result": "passed"
+    },
+    {
+      "check": "CON: six bank items, one default",
+      "result": "passed"
+    },
+    {
+      "check": "Default baseline has 20 unique items",
+      "result": "passed"
+    },
+    {
+      "check": "Default COM covers both facets",
+      "result": "passed"
+    },
+    {
+      "check": "All core choice sets complete",
+      "result": "passed"
+    },
+    {
+      "check": "Unscored items lack numeric choices",
+      "result": "passed"
+    },
+    {
+      "check": "Direction metadata agrees",
+      "result": "passed"
+    },
+    {
+      "check": "Reverse-score examples",
+      "result": "passed"
+    },
+    {
+      "check": "Missing and invalid values remain null",
+      "result": "passed"
+    },
+    {
+      "check": "Midpoint boundaries",
+      "result": "passed"
+    },
+    {
+      "check": "Opposing answers suppress lean",
+      "result": "passed"
+    },
+    {
+      "check": "Explicit condition suppresses even a consistent mean",
+      "result": "passed"
+    },
+    {
+      "check": "Sparse evidence",
+      "result": "passed"
+    },
+    {
+      "check": "Worked example A archetype",
+      "result": "passed"
+    },
+    {
+      "check": "Worked example D multiway tie",
+      "result": "passed"
+    },
+    {
+      "check": "Exactly two top signatures produce blend",
+      "result": "passed"
+    },
+    {
+      "check": "No default archetype from all midpoints",
+      "result": "passed"
+    },
+    {
+      "check": "No archetype from sparse evidence",
+      "result": "passed"
+    },
+    {
+      "check": "25-item cap arithmetic",
+      "result": "passed"
+    },
+    {
+      "check": "Signature deliberate_builder uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature adaptive_explorer uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature collaborative_catalyst uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature independent_architect uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature practical_navigator uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature possibility_connector uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature focused_finisher uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "Signature experimental_maker uses three known dimensions",
+      "result": "passed"
+    },
+    {
+      "check": "No em dashes in source deliverables",
+      "result": "passed"
+    }
+  ]
+}

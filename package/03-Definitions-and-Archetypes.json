@@ -1,0 +1,206 @@
+{
+  "package_version": "1.0.0",
+  "status": "Original educational prototype; not psychometrically validated",
+  "dimensions": [
+    {
+      "id": "PRO",
+      "name": "Processing style",
+      "low": "Private reflection",
+      "high": "Conversation",
+      "definition": "How someone develops an initial understanding or position.",
+      "boundary": "This describes preferred processing, not sociability, confidence, or intelligence."
+    },
+    {
+      "id": "ATT",
+      "name": "Attention style",
+      "low": "Concrete details",
+      "high": "Possibilities and connections",
+      "definition": "Where attention goes first when making sense of something.",
+      "boundary": "This describes a starting point, not accuracy, creativity, or strategic ability."
+    },
+    {
+      "id": "PLN",
+      "name": "Planning style",
+      "low": "Structure early",
+      "high": "Options open",
+      "definition": "How early someone prefers to establish a sequence and commitments.",
+      "boundary": "This describes preferred structure, not reliability or organizational skill."
+    },
+    {
+      "id": "ACT",
+      "name": "Action style",
+      "low": "Investigate first",
+      "high": "Try and learn",
+      "definition": "How someone reduces uncertainty before an initial move.",
+      "boundary": "This describes approach at comparable stakes, not courage, impulsivity, or risk tolerance."
+    },
+    {
+      "id": "COL",
+      "name": "Collaboration style",
+      "low": "Independent ownership",
+      "high": "Shared problem-solving",
+      "definition": "How someone prefers to distribute thinking and ownership on suitable tasks.",
+      "boundary": "This describes work arrangement, not teamwork ability or willingness to help."
+    },
+    {
+      "id": "COM",
+      "name": "Communication style",
+      "low": "Conclusion first",
+      "high": "Context and relationship first",
+      "definition": "How someone prefers to open a substantive message or conversation.",
+      "boundary": "This describes sequencing, not honesty, empathy, assertiveness, or kindness. Context and relationship are distinct facets; report a split when they diverge."
+    },
+    {
+      "id": "CHG",
+      "name": "Change preference",
+      "low": "Familiar approaches",
+      "high": "Experimentation and variety",
+      "definition": "How much method variety someone prefers when the current approach is adequate.",
+      "boundary": "This describes preference at comparable cost, not adaptability, ambition, or resistance to improvement."
+    },
+    {
+      "id": "EXE",
+      "name": "Execution style",
+      "low": "Sustained single focus",
+      "high": "Multiple active priorities",
+      "definition": "How someone prefers to arrange attention across manageable work.",
+      "boundary": "This describes work rhythm, not productivity, attention disorders, or ability to finish."
+    }
+  ],
+  "bands": {
+    "low": "1 <= mean < 2.5",
+    "middle": "2.5 <= mean <= 3.5",
+    "high": "3.5 < mean <= 5"
+  },
+  "minimum_independent_scores": 2,
+  "discordance_range_gte": 3,
+  "archetypes": [
+    {
+      "id": "deliberate_builder",
+      "name": "The Deliberate Builder",
+      "targets": {
+        "PLN": "low",
+        "ACT": "low",
+        "EXE": "low"
+      },
+      "description": "May enjoy giving an idea structure, understanding the route, and progressing through focused work.",
+      "possible_overuse": "Preparation can continue after enough information is available.",
+      "experiment": "Set a small information threshold and a date for a reversible first attempt."
+    },
+    {
+      "id": "adaptive_explorer",
+      "name": "The Adaptive Explorer",
+      "targets": {
+        "CHG": "high",
+        "PLN": "high",
+        "ATT": "high"
+      },
+      "description": "May enjoy exploring possibilities while allowing the route to evolve.",
+      "possible_overuse": "Options can remain open longer than a shared commitment allows.",
+      "experiment": "Choose one exploration window and one explicit decision point."
+    },
+    {
+      "id": "collaborative_catalyst",
+      "name": "The Collaborative Catalyst",
+      "targets": {
+        "COL": "high",
+        "PRO": "high",
+        "COM": "high"
+      },
+      "description": "May develop momentum by thinking with others and establishing shared context.",
+      "possible_overuse": "Progress can become dependent on access to other people.",
+      "experiment": "Pair a short joint discussion with one clearly owned next action."
+    },
+    {
+      "id": "independent_architect",
+      "name": "The Independent Architect",
+      "targets": {
+        "COL": "low",
+        "PRO": "low",
+        "ATT": "high"
+      },
+      "description": "May enjoy developing broader concepts through private thinking and clear ownership.",
+      "possible_overuse": "A developed idea may reach collaborators too late for useful input.",
+      "experiment": "Share a rough outline at an agreed early checkpoint."
+    },
+    {
+      "id": "practical_navigator",
+      "name": "The Practical Navigator",
+      "targets": {
+        "ATT": "low",
+        "COM": "low",
+        "PLN": "high"
+      },
+      "description": "May prefer concrete information, clear messages, and flexibility in the route.",
+      "possible_overuse": "An immediate next step can obscure a dependency that needs advance coordination.",
+      "experiment": "State the next step and name one dependency before proceeding."
+    },
+    {
+      "id": "possibility_connector",
+      "name": "The Possibility Connector",
+      "targets": {
+        "ATT": "high",
+        "COL": "high",
+        "CHG": "high"
+      },
+      "description": "May enjoy connecting emerging possibilities through shared exploration.",
+      "possible_overuse": "Interesting connections can create more simultaneous commitments than intended.",
+      "experiment": "Capture new possibilities in a backlog and jointly select one to test."
+    },
+    {
+      "id": "focused_finisher",
+      "name": "The Focused Finisher",
+      "targets": {
+        "EXE": "low",
+        "PLN": "low",
+        "COL": "low"
+      },
+      "description": "May prefer a clear plan, defined ownership, and sustained attention through a useful stopping point.",
+      "possible_overuse": "Protecting focus can delay feedback or adjustment.",
+      "experiment": "Add one feedback checkpoint before the final work block. The label does not establish completion ability."
+    },
+    {
+      "id": "experimental_maker",
+      "name": "The Experimental Maker",
+      "targets": {
+        "ACT": "high",
+        "CHG": "high",
+        "ATT": "low"
+      },
+      "description": "May enjoy learning through concrete attempts and alternative methods.",
+      "possible_overuse": "Repeated experiments can make it hard to retain lessons or stabilize a useful method.",
+      "experiment": "Define one observable test result and record it before starting the next test."
+    }
+  ],
+  "selection": {
+    "core": 16,
+    "context": 4,
+    "adaptive_max": 4,
+    "closing_max": 1,
+    "assessment_cap": 25,
+    "core_rule": "One item from pool A and one from pool B for every dimension; distinct context tags; COM one odd and one even item to cover both facets."
+  },
+  "default_session": [
+    "PRO-01",
+    "ATT-01",
+    "PLN-01",
+    "ACT-01",
+    "COL-01",
+    "COM-01",
+    "CHG-01",
+    "EXE-01",
+    "MOT-01",
+    "PRS-01",
+    "PRO-07",
+    "ATT-07",
+    "PLN-07",
+    "ACT-07",
+    "COL-07",
+    "COM-08",
+    "CHG-07",
+    "EXE-07",
+    "ENV-01",
+    "CON-01"
+  ],
+  "closing_prompt": "What important part of how you work have we missed?"
+}
