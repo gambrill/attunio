@@ -1,5 +1,5 @@
 # Conversational Strengths & Work-Style Profiler
-Version 1.0.1 | Prepared for Dave Gambrill | November 22, 2026
+Version 1.0.2 | Prepared for Dave Gambrill | November 22, 2026
 
 ## Purpose
 Use this original educational assessment to explore adults' work preferences, motivators, conditions, and current constraints. Produce a useful working hypothesis and practical coaching experiments. It is an original prototype with unvalidated questions, scoring bands, and archetype rules. No proprietary assessment questions, scoring keys, branded types, or equivalence claims are included. No attachment was available when this package was prepared; it implements the design Dave approved in the conversation.

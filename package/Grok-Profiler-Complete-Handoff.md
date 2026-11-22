@@ -82,7 +82,7 @@ An immediate clarification during the baseline uses an adaptive slot and counts 
 For a core item, show the actual text in option_1 and option_5, and the middle choices:
 1. [First endpoint]
 2. Mostly 1, with some 5.
-3. An equal blend of both options.
+3. An equal blend of options 1 and 5.
 4. Mostly 5, with some 1.
 5. [Second endpoint]
 Also: Depends on the situation / Neither option fits / Skip.
@@ -650,14 +650,14 @@ The package validation checks counts, links, and deterministic scoring examples.
 # Readable question bank
 Version 1.0.0 | 144 questions: 96 core, 24 adaptive, 24 context
 
-This renders the CSV for human review. For core items, show 1 and 5 exactly as written, with 2 = mostly 1 with some 5; 3 = an equal blend of both options; 4 = mostly 5 with some 1. Always allow depends, neither, or skip. Follow-up and context items are open-ended. Never treat them as additional independent scores. The optional closing reflection is specified in the session protocol and is not a bank row.
+This renders the CSV for human review. For core items, show 1 and 5 exactly as written, with 2 = mostly 1 with some 5; 3 = an equal blend of options 1 and 5; 4 = mostly 5 with some 1. Always allow depends, neither, or skip. Follow-up and context items are open-ended. Never treat them as additional independent scores. The optional closing reflection is specified in the session protocol and is not a bank row.
 
 ## PRO-01 | core | PRO
 When you first encounter a tricky project question, which helps your thoughts take shape?
 
 1. Think it through privately before discussing it
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Talk it through while my ideas are still forming
 
@@ -670,7 +670,7 @@ Before a meeting where you will offer ideas, what preparation feels most natural
 
 1. Leave room to develop my ideas in the discussion
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Write or think through my ideas beforehand
 
@@ -683,7 +683,7 @@ When a new concept is hard to understand, which first step usually helps?
 
 1. Spend some time making sense of it on my own
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Discuss it with someone as I work it out
 
@@ -696,7 +696,7 @@ When someone asks for your view on a draft, how do you prefer to form your respo
 
 1. Explore my reactions in a conversation
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Review it quietly before explaining my view
 
@@ -709,7 +709,7 @@ When two everyday options seem equally reasonable, how do you sort out your pref
 
 1. Reflect privately until my preference is clearer
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Hear myself discuss the options with someone
 
@@ -722,7 +722,7 @@ When imagining your next few months, how do you develop your initial thoughts?
 
 1. Use a conversation to discover what I think
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Make private notes before sharing them
 
@@ -735,7 +735,7 @@ When you cannot quite explain a problem yet, what feels most useful?
 
 1. Give myself time to clarify it privately
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Start explaining it to someone and refine it aloud
 
@@ -748,7 +748,7 @@ After a complex experience, how do you usually work out what you learned?
 
 1. Discuss it with someone first
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Reflect on it privately first
 
@@ -761,7 +761,7 @@ When an idea is only half formed, where do you usually develop it next?
 
 1. In a private sketch or set of notes
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. In an exploratory conversation
 
@@ -774,7 +774,7 @@ If someone asks an unexpected question with no urgent deadline, what response fe
 
 1. Start talking and develop my answer as I go
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Take a little thinking time before replying
 
@@ -787,7 +787,7 @@ After hearing an opinion that challenges yours, what helps you form your respons
 
 1. Pause to work through my thoughts privately
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Explore my response in dialogue
 
@@ -800,7 +800,7 @@ When reviewing a personal goal, how do you discover what you really think about 
 
 1. Talk it through with someone I trust
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Reflect or journal on my own
 
@@ -831,7 +831,7 @@ When you open a new project brief, what usually catches your attention first?
 
 1. The specific requirements and examples
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The larger possibilities and connections
 
@@ -844,7 +844,7 @@ When learning an unfamiliar subject, which entry point do you prefer?
 
 1. An overview that connects the main ideas
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. A concrete example I can examine
 
@@ -857,7 +857,7 @@ When an everyday process is not working well, where do you first look?
 
 1. The specific steps and incidents
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The wider pattern connecting the issues
 
@@ -870,7 +870,7 @@ When someone describes a possible project, what do you first want to explore?
 
 1. What it could become or connect to
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. What it would involve in practical detail
 
@@ -883,7 +883,7 @@ When reviewing a piece of work for the first time, what do you notice first?
 
 1. The particular elements and how they work
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The overall direction and broader meaning
 
@@ -896,7 +896,7 @@ When hearing about someone else's experience, which part do you naturally follow
 
 1. The themes and what the experience might imply
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. What happened and the concrete circumstances
 
@@ -909,7 +909,7 @@ When planning a free afternoon somewhere new, where does your attention go first
 
 1. Specific places, times, and activities
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The kind of experience and possibilities available
 
@@ -922,7 +922,7 @@ When browsing information about a topic, what tends to draw you in first?
 
 1. Connections to other ideas and future possibilities
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Specific observations and examples
 
@@ -935,7 +935,7 @@ When thinking about a project's progress, what comes to mind first?
 
 1. The particular work completed and remaining
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. How its direction fits the broader goal
 
@@ -948,7 +948,7 @@ When someone brings you an idea, which response comes most naturally first?
 
 1. Explore what other possibilities it opens
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Ask for an example of how it would work
 
@@ -961,7 +961,7 @@ When explaining something unfamiliar, where do you naturally begin?
 
 1. A specific example or concrete case
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The overall concept and how the pieces connect
 
@@ -974,7 +974,7 @@ When considering an improvement to your routine, what do you picture first?
 
 1. The broader possibilities the improvement creates
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The particular changes in daily activity
 
@@ -1005,7 +1005,7 @@ For a flexible project with a clear goal, how do you prefer to begin organizing 
 
 1. Set a sequence and milestones early
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Leave the route open and choose steps as I go
 
@@ -1018,7 +1018,7 @@ When you have discretion over your week, what planning approach feels comfortabl
 
 1. Keep substantial room to decide each day
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Decide the main schedule in advance
 
@@ -1031,7 +1031,7 @@ For a low-stakes outing with several good options, what do you prefer?
 
 1. Choose the main activities beforehand
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Keep the main activities undecided until closer to the time
 
@@ -1044,7 +1044,7 @@ Before creating a substantial piece of content, how do you prefer to organize it
 
 1. Let the structure emerge while I create it
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Establish an outline early
 
@@ -1057,7 +1057,7 @@ When coordinating a small voluntary project, what feels natural?
 
 1. Agree on the main sequence early
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Agree on the goal and leave the sequence flexible
 
@@ -1070,7 +1070,7 @@ With a manageable deadline several weeks away, how do you prefer to plan?
 
 1. Choose intermediate steps as the work develops
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Set intermediate milestones near the start
 
@@ -1083,7 +1083,7 @@ When establishing a new personal routine, what approach appeals to you?
 
 1. Define its main steps and timing early
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Keep its steps and timing flexible while it develops
 
@@ -1096,7 +1096,7 @@ When several acceptable approaches are available, how soon do you like to commit
 
 1. Keep several approaches available until more unfolds
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Choose an approach early so I can organize around it
 
@@ -1109,7 +1109,7 @@ On an unscheduled day with a few things to do, which feels more natural?
 
 1. Set an order for them at the start
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Choose the order as the day unfolds
 
@@ -1122,7 +1122,7 @@ When a team gives you a goal and discretion over the route, what do you prefer?
 
 1. Let the plan take shape as work progresses
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Establish the main plan before much work begins
 
@@ -1135,7 +1135,7 @@ When arranging a small informal event, what do you prefer?
 
 1. Set the main arrangements early
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Keep the main arrangements flexible longer
 
@@ -1148,7 +1148,7 @@ For a new deliverable with several acceptable formats, what feels comfortable?
 
 1. Keep the format open while developing the content
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Choose the format near the beginning
 
@@ -1179,7 +1179,7 @@ For an unfamiliar tool that is safe to experiment with, how do you prefer to sta
 
 1. Read or watch enough to understand it before trying
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Try a simple task and learn from what happens
 
@@ -1192,7 +1192,7 @@ For a small reversible project, what usually reduces your uncertainty first?
 
 1. Build a small first version to generate information
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Gather information before beginning a first version
 
@@ -1205,7 +1205,7 @@ When learning a practical skill with little downside to mistakes, what feels nat
 
 1. Study the approach before a first attempt
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Make an early attempt and learn from the experience
 
@@ -1218,7 +1218,7 @@ For a minor issue with an easy undo option, how do you prefer to investigate it?
 
 1. Try a small change and observe the result
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Understand likely causes before changing anything
 
@@ -1231,7 +1231,7 @@ When you have an idea that is inexpensive to test, what is your preferred first 
 
 1. Research how it might work
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Run a small test of how it works
 
@@ -1244,7 +1244,7 @@ When considering a reversible adjustment to your own workflow, what do you prefe
 
 1. Try it briefly and review the actual effects
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Review the likely effects before trying it
 
@@ -1257,7 +1257,7 @@ When trying a simple unfamiliar recipe, which approach feels natural?
 
 1. Understand the instructions before starting
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Begin with a small attempt and learn while doing
 
@@ -1270,7 +1270,7 @@ In a practice environment where changes cannot affect real work, how do you lear
 
 1. Explore the feature directly and consult guidance as needed
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Review guidance before using it
 
@@ -1283,7 +1283,7 @@ For a draft message that you can freely revise before sending, how do you prefer
 
 1. Examine examples or guidance before drafting
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Write a first version to discover what it needs
 
@@ -1296,7 +1296,7 @@ When exploring a hobby with inexpensive materials, what first step appeals to yo
 
 1. Make a simple attempt and learn from it
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Learn the basic method before making something
 
@@ -1309,7 +1309,7 @@ In a low-stakes practice exercise, what helps you decide how to proceed?
 
 1. Understand the available approaches before attempting it
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Attempt one approach and use the feedback
 
@@ -1322,7 +1322,7 @@ When a rough model would be cheap and easy to discard, how do you prefer to proc
 
 1. Make the model to help clarify the concept
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Clarify the concept before making the model
 
@@ -1353,7 +1353,7 @@ For a task that could work equally well solo or jointly, which arrangement do yo
 
 1. Own a defined part and bring back my work
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Work through the task together
 
@@ -1366,7 +1366,7 @@ When a manageable problem could be solved either way, what feels more satisfying
 
 1. Share the problem-solving process with someone
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Take ownership of solving it independently
 
@@ -1379,7 +1379,7 @@ For a creative task with flexible collaboration options, what do you prefer?
 
 1. Develop my own contribution before combining work
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Develop the contribution jointly from the start
 
@@ -1392,7 +1392,7 @@ When practice could be done alone or with a partner, which do you usually choose
 
 1. Work through practice with a partner
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Work through practice independently
 
@@ -1405,7 +1405,7 @@ When organizing a small shared activity, how do you prefer to divide the work?
 
 1. Give each person a clear area to own
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Make the main decisions and work through details together
 
@@ -1418,7 +1418,7 @@ With time and resources equal, how would you prefer to improve a draft?
 
 1. Work through revisions alongside someone
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Make my own revisions and then request input
 
@@ -1431,7 +1431,7 @@ For a shared outcome with separable tasks, which arrangement appeals to you?
 
 1. Distinct responsibilities with agreed handoffs
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Shared responsibility with frequent joint work
 
@@ -1444,7 +1444,7 @@ When generating options for an everyday challenge, what work arrangement do you 
 
 1. Generate the set together
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Generate a set independently and then compare
 
@@ -1457,7 +1457,7 @@ When examining a set of information, what arrangement feels most natural?
 
 1. Take my own pass and report what I find
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Examine and interpret it jointly
 
@@ -1470,7 +1470,7 @@ For a voluntary activity with several workable arrangements, what do you prefer?
 
 1. Work side by side on a shared contribution
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Take responsibility for my own contribution
 
@@ -1483,7 +1483,7 @@ When designing a small solution with another person, how do you prefer to work?
 
 1. Develop separate parts and integrate them
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Develop the main parts together
 
@@ -1496,7 +1496,7 @@ For an improvement you could make alone or jointly, which feels more engaging?
 
 1. Sharing the work and decisions throughout
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Having clear ownership of my own work
 
@@ -1527,7 +1527,7 @@ In a routine update to someone who knows the project, how do you naturally begin
 
 1. State the main result or request first
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Explain the relevant background before the result or request
 
@@ -1540,7 +1540,7 @@ When offering ordinary feedback to someone you know, what opening feels natural?
 
 1. First establish shared understanding and then give the observation
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Lead with the main observation
 
@@ -1553,7 +1553,7 @@ When making a straightforward request, what do you tend to put first?
 
 1. The request itself
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The context that explains why I am asking
 
@@ -1566,7 +1566,7 @@ In a respectful disagreement, how do you usually open your response?
 
 1. Acknowledge the other person's perspective before stating my difference
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. State the point on which I differ
 
@@ -1579,7 +1579,7 @@ When sharing a recommendation, how do you naturally start?
 
 1. Give my recommendation, then the reasoning
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Build the background and reasoning, then give my recommendation
 
@@ -1592,7 +1592,7 @@ When raising an ordinary work issue with a colleague, how do you tend to begin?
 
 1. Connect with the person before introducing the issue
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Introduce the issue directly
 
@@ -1605,7 +1605,7 @@ For an email with one main point, what structure feels natural?
 
 1. Put the point in the opening sentence
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Introduce the circumstances before the main point
 
@@ -1618,7 +1618,7 @@ When correcting a small misunderstanding, how do you usually begin?
 
 1. Establish common ground before the clarification
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. State the clarification first
 
@@ -1631,7 +1631,7 @@ When explaining a decision you have made, where do you naturally start?
 
 1. With the decision
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. With the context that led to the decision
 
@@ -1644,7 +1644,7 @@ When expressing an everyday work boundary, what opening feels natural?
 
 1. Acknowledge the situation or relationship before stating the boundary
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. State the boundary clearly at the start
 
@@ -1657,7 +1657,7 @@ When handing over a task to someone, what do you naturally explain first?
 
 1. What needs to happen next
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The background that makes the next step understandable
 
@@ -1670,7 +1670,7 @@ When discussing a manageable concern with someone you trust, how do you start?
 
 1. Set a supportive conversational tone before naming the concern
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Name the concern first
 
@@ -1701,7 +1701,7 @@ When your current routine works adequately, what usually appeals to you?
 
 1. Continue with the familiar routine
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Introduce some variety or try another routine
 
@@ -1714,7 +1714,7 @@ When two tools are equally suitable and accessible, which tends to appeal to you
 
 1. The unfamiliar tool I could explore
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. The tool I already know
 
@@ -1727,7 +1727,7 @@ For a recurring task where the usual method works, what do you naturally prefer?
 
 1. Reuse the familiar method
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Try a different workable method
 
@@ -1740,7 +1740,7 @@ When choosing an optional learning activity, which tends to attract you?
 
 1. Exploring something new
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Deepening something familiar
 
@@ -1753,7 +1753,7 @@ For an ordinary free evening with equally convenient choices, what appeals to yo
 
 1. A familiar activity I enjoy
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. An unfamiliar activity I could try
 
@@ -1766,7 +1766,7 @@ When a familiar content format is serving its purpose, what feels appealing?
 
 1. Experiment with another format
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Continue refining that format
 
@@ -1779,7 +1779,7 @@ When you can choose how varied your week feels, what do you prefer?
 
 1. A fairly familiar mix of activities
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. A more varied mix with unfamiliar activities
 
@@ -1792,7 +1792,7 @@ For work that can be done equally well in either setting, what do you prefer?
 
 1. Try a different setting
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Use my familiar setting
 
@@ -1805,7 +1805,7 @@ When a reliable approach is available and alternatives cost about the same, what
 
 1. Use the reliable familiar approach
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Explore a different viable approach
 
@@ -1818,7 +1818,7 @@ When two optional projects are equally worthwhile and manageable, what attracts 
 
 1. A project introducing unfamiliar methods
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. A project using familiar methods
 
@@ -1831,7 +1831,7 @@ When a recurring process is adequate, what do you feel drawn to do?
 
 1. Keep the established process largely stable
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Explore alternative ways to run it
 
@@ -1844,7 +1844,7 @@ When choosing between equally accessible weekend activities, what appeals to you
 
 1. Try something I have not done before
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Return to something familiar
 
@@ -1875,7 +1875,7 @@ With control over your day and equally manageable tasks, what work rhythm do you
 
 1. Stay with one priority for an extended block
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Rotate among several priorities across the day
 
@@ -1888,7 +1888,7 @@ When several small projects are available, what feels natural?
 
 1. Keep several moving in parallel
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Bring one to a useful stopping point before starting another
 
@@ -1901,7 +1901,7 @@ When studying several topics at your own pace, what do you prefer?
 
 1. Spend a substantial block on one topic
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Alternate among topics in shorter blocks
 
@@ -1914,7 +1914,7 @@ For several creative tasks with similar deadlines, what rhythm appeals to you?
 
 1. Move among them as I develop each
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Work deeply on one before moving to the next
 
@@ -1927,7 +1927,7 @@ For a set of manageable administrative tasks, what do you prefer?
 
 1. Finish a category before moving to another
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Alternate among categories
 
@@ -1940,7 +1940,7 @@ With no external interruptions, how would you arrange a productive morning?
 
 1. Several different focuses across the morning
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. One main focus for most of the morning
 
@@ -1953,7 +1953,7 @@ When exploring several useful resources without a deadline, what do you prefer?
 
 1. Stay with one resource to a useful stopping point
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Move among multiple resources
 
@@ -1966,7 +1966,7 @@ When working on several personal projects, which arrangement feels natural?
 
 1. Keep several actively progressing together
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Keep one as the main active project at a time
 
@@ -1979,7 +1979,7 @@ When reviewing several items, what rhythm do you prefer?
 
 1. Complete a substantial pass on one before the next
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Switch among items during the review
 
@@ -1992,7 +1992,7 @@ When scheduling discretionary work, what block pattern appeals to you?
 
 1. Shorter blocks distributed across priorities
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Longer blocks devoted to one priority
 
@@ -2005,7 +2005,7 @@ When you have several equally important tasks and enough time, what feels satisf
 
 1. Make concentrated progress on one task
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Make smaller advances on several tasks
 
@@ -2018,7 +2018,7 @@ When practicing multiple skills, what rhythm do you prefer?
 
 1. Rotate between skills within the practice period
 2. Mostly option 1, with some of option 5
-3. An equal blend of both options
+3. An equal blend of options 1 and 5
 4. Mostly option 5, with some of option 1
 5. Focus on one skill for a sustained period
 
