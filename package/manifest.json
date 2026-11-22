@@ -1,19 +1,19 @@
 {
   "01-START-HERE.md": {
     "bytes": 4011,
-    "sha256": "762e484fdc257c40d1b00c73b8adab88ddd15340e487257d58745537e25462e9"
+    "sha256": "c8e4277bd417a080466f0623db76c954a8b1ad05e3dd485e9bd823d62fd034fa"
   },
   "02-Question-Bank.csv": {
-    "bytes": 64928,
-    "sha256": "e995f6b315ab810669c5ffd707ed3d1bf9235726b48a89798ccef2c621e0c076"
+    "bytes": 60896,
+    "sha256": "7d62fbf2137bcb731dace1fd8026fcdbb1da4466fbe9100153c917dc88ceda7f"
   },
   "03-Definitions-and-Archetypes.json": {
     "bytes": 7604,
     "sha256": "054645ca1a810d1c5f648239dd7af1ae60798b73997e25a7dad7efa2c7df08fb"
   },
   "04-Scoring-and-Session-Rules.md": {
-    "bytes": 17112,
-    "sha256": "b90a182a276bfd070cfa66b0575ca37c073d4c6042f50c2beafa6fed20be3646"
+    "bytes": 17329,
+    "sha256": "da0e9c1524aefacb81ff89582204338e8f2dd591c763c06f9d6578c6b15399ed"
   },
   "05-Dimensions-and-Archetypes.md": {
     "bytes": 13476,
@@ -28,15 +28,15 @@
     "sha256": "78b0275c6eadde06a195f445913fc0487dcfd8b6a2165eed7eabaaa2e773b618"
   },
   "08-Readable-Question-Bank.md": {
-    "bytes": 66580,
-    "sha256": "6708b3e9de6f8c4c7a1745e66fe5dc5e518f6587b44b30b22418f76c3cedc7a3"
+    "bytes": 62567,
+    "sha256": "4670d9c0fd1a97fec8b5436ef56970dbe7a57985bbee11bad384c7f5dc314760"
   },
   "09-Validation-Results.json": {
     "bytes": 5607,
     "sha256": "f3f5028dff98ccaf7f61db80a59af38543ef8ca4c64da26f471149d14b2f501c"
   },
   "Grok-Profiler-Complete-Handoff.md": {
-    "bytes": 127545,
-    "sha256": "68299d75ec9c9d18bba334daf36c628c798fd4a927be819ff8d25c3eccd98df4"
+    "bytes": 123749,
+    "sha256": "af99c52cb89331901f92baba097cf96bc0333009a33df34144a5ba5d7b80dd7a"
   }
 }

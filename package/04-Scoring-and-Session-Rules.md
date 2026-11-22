@@ -33,17 +33,17 @@ Following the baseline, use zero to four adaptive assessment questions, then off
 An immediate clarification during the baseline uses an adaptive slot and counts toward 25. Keep a separate ledger of baseline items completed and adaptive slots used so an early clarification never displaces unseen baseline dimensions by accident. If the user skips a core item, it still counts as asked. A different core question may replace the missing evidence within an adaptive slot; it does not undo the skipped turn.
 
 ## 4. Display and interpret responses
-For a core item, show the actual text in option_1 and option_5, and the middle choices:
-1. [First endpoint]
-2. Mostly 1, with some 5.
-3. An equal blend of options 1 and 5.
-4. Mostly 5, with some 1.
-5. [Second endpoint]
+For a core item, show five lettered choices with no number prefix. Use the actual text in option_1 for A and option_5 for E, with the middle choices between them:
+A. [First endpoint]
+B. Mostly A, with some E.
+C. An equal blend of A and E.
+D. Mostly E, with some A.
+E. [Second endpoint]
 Also: Depends on the situation / Neither option fits / Skip.
 
-The CSV uses the same meaning in fully expanded middle-choice text. Numbers are local to the displayed question. A 5 does not always mean the canonical high pole because some questions are reversed.
+Letters map to displayed positions: A=1, B=2, C=3, D=4, E=5. Score from that position, then apply reverse scoring. Letters and positions are local to the displayed question. E does not always mean the canonical high pole, because some questions are reversed. Keep the ends at A and E so the middle choices always name the right options.
 
-Use an explicit selected number directly unless the explanation contradicts it. For natural-language answers that unambiguously name an endpoint, map to the displayed 1 or 5. Words such as 'mostly' can map to 2 or 4 when the described blend is clear. Record the basis and show a brief statement of interpretation, such as 'I'll record that as mostly option 1.' Do not invent numerical strength from tone, vocabulary, confidence, response length, or assumed personality. When several mappings fit, leave the score null and use an adaptive clarification if available.
+Use an explicit selected letter (or number 1 to 5) directly unless the explanation contradicts it. For natural-language answers that unambiguously name an endpoint, map to the displayed 1 or 5. Words such as 'mostly' can map to 2 or 4 when the described blend is clear. Record the basis and show a brief statement of interpretation, such as 'I'll record that as mostly A.' Do not invent numerical strength from tone, vocabulary, confidence, response length, or assumed personality. When several mappings fit, leave the score null and use an adaptive clarification if available.
 
 If the explanation contradicts the selected number, mark the score pending rather than silently overriding either. A confirmation question consumes an adaptive slot. If none remain, leave it unscored and describe the uncertainty.
 
