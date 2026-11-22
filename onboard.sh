@@ -10,7 +10,7 @@
 #   ATTUNIO_HOME=/some/dir bash onboard.sh     # custom install location
 set -euo pipefail
 
-VERSION="${ATTUNIO_VERSION:-v1.0.3}"
+VERSION="${ATTUNIO_VERSION:-v1.0.4}"
 REPO_RAW="${ATTUNIO_REPO_RAW:-https://raw.githubusercontent.com/gambrill/attunio/${VERSION}/package}"
 HOME_DIR="${ATTUNIO_HOME:-/home/box/agent-data/attunio}"
 LOCAL_SRC=""

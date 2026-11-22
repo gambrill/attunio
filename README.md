@@ -22,7 +22,7 @@ This repo holds Attunio's assessment package (questions, scoring rules, archetyp
 
 ## Onboarding (run by the bot)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.3/onboard.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.4/onboard.sh | bash
 ```
 The script downloads every file in the manifest, verifies sizes and checksums and question counts, then installs to `/home/box/agent-data/attunio/package` (read-only), and creates a private `profile/` folder (owner-only) and a `briefs/` folder for the team bot brief.
 
@@ -31,6 +31,7 @@ Attunio is an original coaching and reflection tool. Its questions, bands, and a
 
 ## Changelog
 
+- v1.0.4 (Nov 22, 2026): answer text no longer starts with a letter, since the card shows its own.
 - v1.0.3 (Nov 22, 2026): answers are labeled A to E to match the card letters, with middle choices "Mostly A, with some E", "An equal blend of A and E" and "Mostly E, with some A". Scoring is unchanged (A=1 to E=5).
 - v1.0.1 (Nov 22, 2026): the middle option was reworded and reinstalling over an existing install now works.
 - v1.0.0 (Nov 22, 2026): first release.

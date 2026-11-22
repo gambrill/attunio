@@ -79,7 +79,7 @@ Following the baseline, use zero to four adaptive assessment questions, then off
 An immediate clarification during the baseline uses an adaptive slot and counts toward 25. Keep a separate ledger of baseline items completed and adaptive slots used so an early clarification never displaces unseen baseline dimensions by accident. If the user skips a core item, it still counts as asked. A different core question may replace the missing evidence within an adaptive slot; it does not undo the skipped turn.
 
 ## 4. Display and interpret responses
-For a core item, show five lettered choices with no number prefix. Use the actual text in option_1 for A and option_5 for E, with the middle choices between them:
+For a core item, show five choices in this order. Do not put a letter or number at the start of the option text, because the card supplies its own A to E labels. Use the actual text in option_1 for A and option_5 for E, with the middle choices between them:
 A. [First endpoint]
 B. Mostly A, with some E.
 C. An equal blend of A and E.
