@@ -1685,7 +1685,7 @@ Context: usual_preference. Trigger: ambiguous_or_conflicting_core. Scoring: clar
 Never add this response as another independent dimension score. Preserve conditional observations; any correction must identify the original core response.
 
 ## COM-F2 | followup | COM
-Does your opening style change between a routine factual update and a conversation where the relationship needs attention?
+Do you start a message or conversation differently when it's a routine update than when the relationship needs some care?
 
 Context: conditional_shift. Trigger: context_or_stakes_shift. Scoring: context_only.
 Never add this response as another independent dimension score. Preserve conditional observations; any correction must identify the original core response.

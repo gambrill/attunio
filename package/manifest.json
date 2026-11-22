@@ -1,11 +1,11 @@
 {
   "01-START-HERE.md": {
     "bytes": 4011,
-    "sha256": "f17b9ee79d3bda1d8215c2910c195a3aa7d0ee2560e5e066b786da111c1f2efd"
+    "sha256": "cb581b9f833ccb8db0a0c1622b9292f9f33ab47b1491c1315586b4f730f2c261"
   },
   "02-Question-Bank.csv": {
-    "bytes": 60896,
-    "sha256": "7d62fbf2137bcb731dace1fd8026fcdbb1da4466fbe9100153c917dc88ceda7f"
+    "bytes": 60895,
+    "sha256": "ab5d2b03378d21cf8c0b11e5488ec3b7c16d39e7747d3271b509c40fe5b63af3"
   },
   "03-Definitions-and-Archetypes.json": {
     "bytes": 7604,
@@ -28,15 +28,15 @@
     "sha256": "78b0275c6eadde06a195f445913fc0487dcfd8b6a2165eed7eabaaa2e773b618"
   },
   "08-Readable-Question-Bank.md": {
-    "bytes": 62567,
-    "sha256": "4670d9c0fd1a97fec8b5436ef56970dbe7a57985bbee11bad384c7f5dc314760"
+    "bytes": 62566,
+    "sha256": "10b79f7d403760904510dbab4984a1301daaae3aec99b754b5052cbdfa6bf3ea"
   },
   "09-Validation-Results.json": {
     "bytes": 5607,
     "sha256": "f3f5028dff98ccaf7f61db80a59af38543ef8ca4c64da26f471149d14b2f501c"
   },
   "Grok-Profiler-Complete-Handoff.md": {
-    "bytes": 123844,
-    "sha256": "650c97874c48b5e56c2b2abcd776c41668fe15b4648d32aade939c0d34ed27b5"
+    "bytes": 123843,
+    "sha256": "11b0e75b1528139ff19c6050f315a8cfdc41bdcb8987683307db045060f8ad68"
   }
 }
