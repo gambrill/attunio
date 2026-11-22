@@ -1,7 +1,7 @@
 {
   "01-START-HERE.md": {
     "bytes": 4011,
-    "sha256": "aa4627764765ada2eeca44b01d333857d06682736edc9a74f53f0a5c5abfc45a"
+    "sha256": "6d7b8af0a4d801d486f61e90221572a09a8759b2c045a258bda5fd600921089d"
   },
   "02-Question-Bank.csv": {
     "bytes": 60895,
@@ -40,7 +40,7 @@
     "sha256": "11b0e75b1528139ff19c6050f315a8cfdc41bdcb8987683307db045060f8ad68"
   },
   "10-Bot-Setup.md": {
-    "bytes": 3118,
-    "sha256": "2e5fbd927ae0fb7d35f20891c5502c2db2fbca367c6d04f35049259cb115e822"
+    "bytes": 3237,
+    "sha256": "f438f376ef931651823488bf3b0ad5b556fc6085be4c21a32fef90086a99dc36"
   }
 }

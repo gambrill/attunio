@@ -23,7 +23,7 @@ This repo holds Attunio's assessment package (questions, scoring rules, archetyp
 
 ## Onboarding (run by the bot)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.6/onboard.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gambrill/attunio/v1.0.7/onboard.sh | bash
 ```
 The script downloads every file in the manifest, verifies sizes and checksums and question counts, then installs to `/home/box/agent-data/attunio/package` (read-only), and creates a private `profile/` folder (owner-only) and a `briefs/` folder for the team bot brief.
 
@@ -32,6 +32,7 @@ Attunio is an original coaching and reflection tool. Its questions, bands, and a
 
 ## Changelog
 
+- v1.0.7 (Nov 22, 2026): shared-memory pointer is saved by the owner via their coordinator bot's chat.
 - v1.0.6 (Nov 22, 2026): added 10-Bot-Setup.md (card display, brief distribution, routine ask and closing message).
 - v1.0.5 (Nov 22, 2026): COM-F2 reworded in plain language (start a message or conversation).
 - v1.0.4 (Nov 22, 2026): answer text no longer starts with a letter, since the card shows its own.

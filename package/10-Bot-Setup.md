@@ -19,7 +19,7 @@ Do this once, right after bot-brief.md is first written, and again only if the f
 Pointer line:
 > [Owner]'s working-style brief is at [brief path]. Before drafting a message to [Owner], planning work with them, or deciding how to present something to them, read it. Skip it for routine checks and status reports.
 
-1. **Shared pointer:** ask the team's coordinator bot, the one that manages shared memory, to save the line to the memory all the owner's bots share. If there's no coordinator, give the owner the line to save.
+1. **Shared pointer:** bots can only write to the memory all the owner's bots share in a turn the owner starts in that bot's chat. Another bot's message can't trigger it. Give the owner the line and ask them to paste it into their coordinator bot's chat, with "Please save this to shared memory for all my bots:" in front of it.
 2. **Direct lines:** for the few bots that write to the owner most, ask each one to save the same line to its own memory as a standing rule. Never edit another bot's instructions.
 3. Tell the owner which bots got it. Send only the pointer, never profile details.
 
